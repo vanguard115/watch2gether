@@ -39,8 +39,8 @@ export default {
     methods: {
       expandMovie() {
         console.log("Searching for " + this.movie.id)
-        
-
+         // onclick push to route with the ID and show data from that page
+        this.$router.push({ path: `/MovieDetail/${this.movie.id}` })
       }
     }
 }

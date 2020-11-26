@@ -37,7 +37,7 @@ export default {
     methods: {
         getTheMovieDB (searchQuery) {
             console.log("Searching for " + searchQuery)
-            const reqURL = "https://api.themoviedb.org/3/search/movie?api_key=<<API KEY>>&language=en-US&page=1&include_adult=true&query=" +  searchQuery
+            const reqURL = "https://api.themoviedb.org/3/search/movie?api_key=<<KEY>>&language=en-US&page=1&include_adult=true&query=" +  searchQuery
             console.log(reqURL)
 
 
